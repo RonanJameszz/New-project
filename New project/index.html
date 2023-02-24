@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            New proj
+        </title>
+        <link rel ="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+          
+            <div id="preloader">
+            
+            <header>
+            <a href="#" class="logo">JLCB</a>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#ec">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <label class="switch" id= "icon">
+                <input type="checkbox">
+                <span class="slider"></span>
+                </label>
+            </ul>
+            </header>
+          
+            <div class="box-of-star1" id=" pota">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="box-of-star2">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="box-of-star3">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="box-of-star4">
+              <div class="star star-position1"></div>
+              <div class="star star-position2"></div>
+              <div class="star star-position3"></div>
+              <div class="star star-position4"></div>
+              <div class="star star-position5"></div>
+              <div class="star star-position6"></div>
+              <div class="star star-position7"></div>
+            </div>
+            <div class="astronaut" data-js="astro">
+              <div class="head"></div>
+              <div class="arm arm-left"></div>
+              <div class="arm arm-right"></div>
+              <div class="body">
+                <div class="panel"></div>
+              </div>
+              <div class="leg leg-left"></div>
+              <div class="leg leg-right"></div>
+              <div class="schoolbag"></div>
+            </div>
+
+            </div>
+            
+              
+            <section>
+                 <img src="stars.jpeg" id="stars">
+                 <img src="moon.jpeg" id="moon">
+                 <img src="mountains_behind.png" id="behind">
+                 <h2 id="text"> Welcome </h2>
+                 <img src="mountains_front.png" id="front">
+            </section>
+            <div class="sec" id = "ec">
+                <h2>hjashdkjhsadkjhkhasdd</h2>      
+                <p>jahsdkjahsdkjhsadkjhsasadsadsads<br>adsadsadsadsadsa<br><br><br><br><br>dsadsadsa<br>dsadsadsadsadsadsadkjhsakjhd<br>askjhdsakjhsasdadsasa<br>dsdadsakjhdsasadhsakjdhsakjhdsakjhdsakjdhsakjhdsak<br>jhdsakjhdsakjhdsakjdhsakjdhaskjdhsakjhdsakjhdkjhdkja
+                ksadjsalkdjsalkdjsakljdjsalkj<br>djsalkdjsalkdsajlkdjsalkdjsalkdjsalkdjsalkdjsalkdjsalkdjsalkjalkdsjsalkdjsalkdjsalkdjsal<br>kdjsalkdjsalkdjaslkdjaslkdjsalkjdsalkdasddsajlkdjsalkdjsalkdjsalkdjosakdsa
+                </p>
+                     
+            </div>
+            <script>
+              var loader = document.getElementById("preloader");
+              window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+            </script>
+
+           
+            
+                   
+                  <script>
+                  let stars = document.getElementById('stars');
+                  let moon = document.getElementById('moon');
+                  let behind = document.getElementById('behind');
+                  let text = document.getElementById('text');
+                  let front = document.getElementById('front');
+                  let header = document.getElementById('header');
+                  
+                  window.addEventListener('scroll', function(){
+                    let value = window.scrollY;
+                    stars.style.left = value * 0.25 + 'px';
+                    moon.style.top = value  * 1.05 + "px";
+                    behind.style.top = value * 0.5 + 'px';
+                    front.style.top = value * 0 + 'px';
+                    text.style.marginRight = value * 4 + 'px';
+                    text.style.marginRight = value * 1.5 + 'px';
+                    header.style.top = value * 0.5 + 'px';
+
+                  })
+
+            
+                  </script>
+                   
+                 </script>
+
+                  
+                  
+                  
+        </body>
+</html>
